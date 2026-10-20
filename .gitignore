@@ -1,0 +1,22 @@
+# Never commit game executables, extracted resources or local game state.
+*.exe
+*.dll
+*.pck
+*.zip
+*.log
+buckshot_memory_state.json
+extracted/
+patched/
+original/
+verified/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+.env
+.env.*
+.DS_Store
+Thumbs.db
